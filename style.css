@@ -4,13 +4,17 @@
 
 body{
     font-family: "Libre Baskerville", serif;
-    background-color: rgb(234, 212, 219);
+   
     font-weight: normal;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url('images/a0b4fce285a035b5972d7135f4883e1a_t.jpeg');
+   
 }
 
 .navbar{
     box-shadow: 0 20px 4px rgba(36, 20, 20, 0);
-    background-color: rgb(232, 128, 185);
+    animation: fadeIn 1s ease-in-out;
+    background: linear-gradient(135deg, #e17e7e, #d44c0d, #d7b2b5);
     
 }
 
@@ -22,4 +26,30 @@ body{
 
 h1{
     font-size: 2.5rem;
+}
+
+.card{
+    background: linear-gradient(135deg, #df1111, #d44c0d, #d7b2b5);
+    
+}  
+
+.btn{
+    color: #0f0c0c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(165, 20, 20, 0.1);
+    padding: 15px 30px;
+    background: rgba(227, 83, 83, 0.1);
+    background-color: rgb(223, 83, 18);
+    border: none;
+    border-radius: 50px;
+    color: #442b2b;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 5px 15px rgba(184, 174, 174, 0.1);
+    position: relative;
+    overflow: hidden;
 }
